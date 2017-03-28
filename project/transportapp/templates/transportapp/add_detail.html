@@ -1,0 +1,14 @@
+{% extends 'transportapp/index.html' %}
+
+{% block menu %}
+{% for form in forms %}
+<form method="POST" class="post-form">{% csrf_token %}
+    {{ form.traffic_stop}}
+    {{ form.numberin }}
+    {{ form.numberout }}
+    {{ form.reasearch.as_hidden }}
+    <button type="submit" class="save btn btn-default" >Save</button>
+</form>
+{% endfor %}
+<a href="/"> <button>END</button></a>
+{% endblock %}
