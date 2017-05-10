@@ -1,0 +1,9 @@
+{% extends "transportapp/index.html" %}
+{% load staticfiles %}
+
+{% block content %}
+<form method="POST" class="post-form">{% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="save btn btn-default" >Show</button>
+</form>
+{% endblock %}

@@ -1,8 +1,14 @@
 from django.db import models
+import weekday_field
+import datetime
+from datetime import date
+from datetime import datetime
+from django.core.exceptions import ValidationError
 
 
 class Transpor_Type(models.Model):
     name = models.CharField(max_length=30)
+    maxpeople = models.IntegerField(default=50)
 
     def __str__(self):
         return self.name
@@ -21,39 +27,16 @@ class Traffic_Stop(models.Model):
     def __str__(self):
         return self.name
 
-class Season(models.Model):
-    name = models.CharField(max_length=20)
-
-    def __str__(self):
-        return self.name
-
-class Day_Type(models.Model):
-    name = models.CharField(max_length=20)
-
-    def __str__(self):
-        return self.name
-
-class Time_of_Day(models.Model):
-    name = models.CharField(max_length=20)
-
-    def __str__(self):
-        return self.name
-
-class Reasearcher(models.Model):
-    name = models.CharField(max_length=50)
-    email = models.EmailField
-
-    def __str__(self):
-        return self.name
 
 class Reasearch(models.Model):
-    date = models.DateTimeField(auto_now_add=True)
+    date = models.TimeField(auto_now_add=True)
     route = models.ForeignKey(Route)
-    season = models.ForeignKey(Season)
-    day_type = models.ForeignKey(Day_Type)
-    reasearcher = models.ForeignKey(Reasearcher)
+    weekday = models.IntegerField(default=datetime.weekday(datetime.now()))
+    month = models.IntegerField(default=datetime.now().month)
 
 
+    def __str__(self):
+        return str(self.date)
 
 class Reasearch_detail(models.Model):
     numberin= models.IntegerField()
@@ -63,26 +46,41 @@ class Reasearch_detail(models.Model):
     time = models.TimeField(auto_now_add = True)
 
 
-
-class Result(models.Model):
+class Check(models.Model):
+    SEASONS = (
+        ('W', 'Winter'),
+        ('S', 'Summer'),
+        ('A', 'Autumn'),
+        ('Sp','Spring'),
+    )
+    DAYTYPES = (
+        ('W', 'Workday'),
+        ('F', 'Friday'),
+        ('O', 'Day Out'),
+    )
+    season = models.CharField(max_length=2, choices=SEASONS)
+    daytype = models.CharField(max_length=1, choices=DAYTYPES)
     route = models.ForeignKey(Route)
-    traffic_stop = models.ForeignKey(Traffic_Stop)
-    season = models.ForeignKey(Season)
-    day_type = models.ForeignKey(Day_Type)
-    time_of_day = models.ForeignKey(Time_of_Day)
-    probability = models.FloatField
-    intensity = models.FloatField
-    date = models.DateTimeField()
+    timestart = models.TimeField(auto_now=False)
+    timeend = models.TimeField(auto_now=False)
+
+    def clean(self):
+        " Make sure date not in the past "
+        if self.timestart > self.timeend :
+            raise ValidationError('TIME END < TIME START')
 
 class ReasearchStand(models.Model):
-    date = models.DateTimeField(auto_now_add=True)
+    date = models.TimeField(auto_now_add=True)
     route = models.ForeignKey(Route)
-    season = models.ForeignKey(Season)
-    day_type = models.ForeignKey(Day_Type)
-    reasearcher = models.ForeignKey(Reasearcher)
+    weekday = models.IntegerField(default=datetime.weekday(datetime.now()))
+    month = models.IntegerField(default=datetime.now().month)
+
+
+    def __str__(self):
+        return str(self.date)
 
 class ReasearchStand_detail(models.Model):
     numbercome= models.IntegerField()
-    reasearch = models.ForeignKey(Reasearch)
+    reasearch = models.ForeignKey(ReasearchStand)
     traffic_stop = models.ForeignKey(Traffic_Stop)
     timewait = models.IntegerField()

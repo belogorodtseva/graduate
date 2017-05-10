@@ -1,14 +1,36 @@
 {% extends 'transportapp/index.html' %}
 
-{% block menu %}
-{% for form in forms %}
-<form method="POST" class="post-form">{% csrf_token %}
-    {{ form.traffic_stop}}
-    {{ form.numbercome }}
-    {{ form.timewait }}
-    {{ form.reasearch.as_hidden }}
-    <button type="submit" class="save btn btn-default" >Save</button>
-</form>
-{% endfor %}
-<button><a href="/">END</a></button>
+{% block content %}
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12 text-center" style="top:100px;">
+            <h2>OUT DETAIL</h2>
+            <br>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4 portfolio-item">
+
+
+        </div>
+        <div class="col-sm-4 portfolio-item"style="top:100px;">
+
+          <form method="POST" class="post-form">{% csrf_token %}
+              {{ form.as_p }}
+              <button type="submit" class="save btn btn-default" >SAVE</button>
+          </form>
+
+        </div>
+        <div class="col-sm-4 portfolio-item">
+
+
+
+        </div>
+
+
+    </div>
+</div>
 {% endblock %}

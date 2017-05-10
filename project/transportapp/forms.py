@@ -1,5 +1,8 @@
 from django import forms
-from transportapp.models import ReasearchStand,ReasearchStand_detail,Transpor_Type,Route,Traffic_Stop,Reasearcher,Reasearch,Reasearch_detail,Season,Day_Type,Time_of_Day,Result
+import datetime
+from transportapp.models import Check,ReasearchStand,ReasearchStand_detail,Transpor_Type,Route,Traffic_Stop,Reasearch,Reasearch_detail
+from django.forms.extras.widgets import SelectDateWidget
+from django.contrib.admin import widgets
 
 class ChooseRouteForm(forms.ModelForm):
 
@@ -7,10 +10,19 @@ class ChooseRouteForm(forms.ModelForm):
         model=Reasearch
         fields = "__all__"
 
+
 class ChooseStopForm(forms.ModelForm):
     class Meta:
         model=ReasearchStand
         fields = "__all__"
+
+class ResultForm(forms.ModelForm):
+
+    class Meta:
+        model=Check
+        fields = "__all__"
+        widgets = {'timestart': forms.DateInput(attrs={'id': 'datetimepicker12'})}
+
 
 
 class ResearchDetailForm(forms.ModelForm):

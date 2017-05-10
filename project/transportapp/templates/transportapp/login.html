@@ -1,0 +1,11 @@
+{% extends 'transportapp/index.html' %}
+
+{% block content %}
+
+    <h1 style="margin:2%">LOGIN</h1>
+    <form method="POST" class="post-form" style="margin-left:30% ; margin-right:30%">{% csrf_token %}
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit" class="btn btn-default">Login</button>
+  </form>
+{% endblock %}

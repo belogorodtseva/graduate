@@ -1,55 +1,118 @@
-<html lang="en">
-<head>
-  <title>AG architecture</title>
-  <meta charset="utf-8">
-  {% load staticfiles %}
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  {% block headin %}
-  {% endblock %}
-</head>
 
 
-<body>
+          <!DOCTYPE html>
+          <html lang="en">
+          <head>
 
-  <!--Main Logo-->
-  <div class="mainlogo" style="z-index:1;">
-    <center>
-      <a href="/">
+            <meta charset="utf-8">
+            {% load staticfiles %}
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <meta name="description" content="">
+            <meta name="author" content="">
+            <title>transportapp</title>
 
-      </a>
-    </center>
-  </div>
-	<!--Menu-->
-	<nav class="navbar navbar-default">
-		<div class="container-fluid">
-			<div class="collapse navbar-collapse" id="myNavbar">
-				<ul class="nav navbar-nav navbar-center">
-					<li><a href="/add/">IN</a></li>
-          <li><a href="/add_stand/">OUT</a></li>
-					<li><a href="/">CHECK</a></li>
-					<li><a href="/">ABOUT</a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-  {% block menu %}
-  {% endblock %}
+            <link rel="stylesheet" href="{% static 'transportapp/css/bootstrap.min.css' %}" type = "text/css"/>
+            <link rel="stylesheet" href="{% static 'transportapp/css/bootstrap-datetimepicker.min.css' %}" type = "text/css"/>
+            <link rel="stylesheet" href="{% static 'transportapp/css/scrolling-nav.css' %}" type = "text/css"/>
+            <link href="static/transportapp/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+            <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+            <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+            {% block headin %}
+            {% endblock %}
+          </head>
+          <body>
+          <!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+<!--          <div id="page-preloader"><p class="spinner"><img src="static/transportapp/img/gif.gif" alt=""></p></div> -->
 
-  <!--Footer-->
-  <footer>
-    <div class="container">
-      <!--Social icons-->
-      <div style="float: right;">
+          <div id="skipnav"><a href="#maincontent">Skip to main content</a></div>
 
-      </div>
-      <!--Footer`s info<div id="particles-js"></div>-->
-      <div style="float: left;">
-        <p>transportapp © 2017</p>
-      </div>
-    </div>
-  </footer>
+              <!-- Navigation -->
+              <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+                  <div class="container">
+                      <!-- Brand and toggle get grouped for better mobile display -->
+                      <div class="navbar-header page-scroll">
+                          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                              <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                          </button>
+                          <a class="navbar-brand" href="/#page-top">transportapp</a>
+                      </div>
 
-</body>
+                      <!-- Collect the nav links, forms, and other content for toggling -->
+                      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                          <ul class="nav navbar-nav navbar-right">
+                              <li class="hidden">
+                                  <a href="/#page-top"></a>
+                              </li>
+                              <li class="page-scroll">
+                                  <a href="/#postcards">analyze</a>
+                              </li>
+                              {% if user.is_authenticated %}
+                                <li>
+                                  <a href="/add/">IN</a>
+                                </li>
+                                <li>
+                                  <a href="/add_stand/">OUT</a>
+                                </li>
+                              {% endif %}
+                              <li class="page-scroll">
+                                  <a href="/#portfolio">about</a>
+                              </li>
+                              <li class="page-scroll">
+                                  <a href="/#contact">contact</a>
+                              </li>
+                              {% if user.is_authenticated %}
+                                <li><a href="{% url 'logout'%}?next={{request.path}}">logout</a></li>
+                              {% else %}
+                                <li><a href="{% url 'login'%}?next={{request.path}}">login</a></li>
+                              {% endif %}
+                          </ul>
+                      </div>
+                      <!-- /.navbar-collapse -->
+                  </div>
+                  <!-- /.container-fluid -->
+              </nav>
+{% block content %}
+
+{% endblock %}
+              <!-- Footer -->
+              <footer class="text-center">
+
+                  <div class="footer-below">
+                      <div class="container">
+                          <div class="row">
+                              <div class="col-lg-12">
+                                  Copyright &copy; Anna Belogorodtseva 2017
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </footer>
+
+
+              <!-- jQuery -->
+              <script src="static/transportapp/js/jquery.js"></script>
+
+              <!-- Bootstrap Core JavaScript -->
+              <script src="static/transportapp/js/bootstrap.min.js"></script>
+
+              <!-- Scrolling Nav JavaScript  -->
+              <script src="static/transportapp/js/jquery.easing.min.js"></script>
+              <script src="static/transportapp/js/scrolling-nav.js"></script>
+              <script src="static/transportapp/js/freelancer.js"></script>
+              <script src="static/transportapp/js/scrolling-nav.js"></script>
+              <script src="static/transportapp/js/freelancer.js"></script>
+              <script src="static/transportapp/js/moment.js"></script>
+              <script src="static/transportapp/js/bootstrap-datetimepicker.js"></script>
+              
+              <script>
+                  $(window).on('load', function () {
+                    var $preloader = $('#page-preloader'),
+                        $spinner   = $preloader.find('.spinner');
+                    $spinner.delay(1350).fadeOut();
+                    $preloader.delay(1500).fadeOut('slow');
+                });
+              </script>
+
+          </body>
+
+          </html>
