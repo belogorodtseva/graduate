@@ -11,18 +11,23 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-sm-3 portfolio-item">
+        <div class="col-sm-1 portfolio-item">
 
 
         </div>
-        <div class="col-sm-6 portfolio-item"style="top:100px;">
+        <div class="col-sm-10 portfolio-item"style="top:100px;">
 
         {% for r in content %}
-          <h3>{{r}}</h3>
+          {% for ar in r %}
+          {% for car in ar %}
+            <h3>{{car}}</h3>
+          {% endfor %}
+          <hr>
+          {% endfor %}
         {% endfor %}
 
         </div>
-        <div class="col-sm-3 portfolio-item">
+        <div class="col-sm-1 portfolio-item">
 
 
 

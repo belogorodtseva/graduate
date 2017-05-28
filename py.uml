@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>#C:/Users/Пользователь/Desktop/graduate/project/transportapp/models.py</OriginalElement>
+  <nodes>
+    <node x="568.898185483871" y="-124.125">project.transportapp.models.Transpor_Type</node>
+    <node x="1435.891129032258" y="-161.38205645161293">project.transportapp.models.Reasearch_detail</node>
+    <node x="523.0" y="144.5">project.transportapp.models.ReasearchStand_detail</node>
+    <node x="847.0" y="155.0">project.transportapp.models.Traffic_Stop</node>
+    <node x="1407.0" y="100.0">project.transportapp.models.Check</node>
+    <node x="1117.0" y="133.0">project.transportapp.models.ReasearchStand</node>
+    <node x="1078.0" y="0.0">Model</node>
+    <node x="1169.3901209677417" y="-164.13306451612908">project.transportapp.models.Reasearch</node>
+    <node x="866.6381048387096" y="-121.87399193548396">project.transportapp.models.Route</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="project.transportapp.models.Reasearch_detail" target="Model">
+      <point x="0.0" y="-70.0" />
+      <point x="1575.1421370967741" y="60.0" />
+      <point x="1133.25" y="60.0" />
+      <point x="21.25" y="15.0" />
+    </edge>
+    <edge source="project.transportapp.models.Check" target="Model">
+      <point x="0.0" y="-103.5" />
+      <point x="1533.0" y="70.0" />
+      <point x="1124.75" y="70.0" />
+      <point x="12.75" y="15.0" />
+    </edge>
+    <edge source="project.transportapp.models.ReasearchStand" target="Model">
+      <point x="0.0" y="-70.5" />
+      <point x="1252.0" y="80.0" />
+      <point x="1116.25" y="80.0" />
+      <point x="4.25" y="15.0" />
+    </edge>
+    <edge source="project.transportapp.models.Transpor_Type" target="Model">
+      <point x="0.0" y="-48.5" />
+      <point x="703.6491935483872" y="57.74899193548384" />
+      <point x="1090.75" y="60.0" />
+      <point x="-21.25" y="15.0" />
+    </edge>
+    <edge source="project.transportapp.models.Traffic_Stop" target="Model">
+      <point x="-1.1368683772161603E-13" y="-48.5" />
+      <point x="971.9999999999998" y="80.0" />
+      <point x="1107.75" y="80.0" />
+      <point x="-4.25" y="15.0" />
+    </edge>
+    <edge source="project.transportapp.models.ReasearchStand_detail" target="Model">
+      <point x="0.0" y="-59.0" />
+      <point x="675.0" y="70.0" />
+      <point x="1099.25" y="70.0" />
+      <point x="-12.75" y="15.0" />
+    </edge>
+    <edge source="project.transportapp.models.Route" target="Model">
+      <point x="0.0" y="-48.5" />
+      <point x="977.8891129032259" y="50.0" />
+      <point x="1082.25" y="50.0" />
+      <point x="-29.75" y="15.0" />
+    </edge>
+    <edge source="project.transportapp.models.Reasearch" target="Model">
+      <point x="0.0" y="-70.5" />
+      <point x="1296.1431451612902" y="50.0" />
+      <point x="1141.75" y="50.0" />
+      <point x="29.75" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.044245409762651" x="1130.0908228598532" y="60.71249678360067" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+    <Category>Fields</Category>
+  </Categories>
+</Diagram>
+

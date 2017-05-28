@@ -1,0 +1,1484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="93630b5e-75dd-46a6-bcea-eeb8b17a0a12" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/test.png" afterPath="$PROJECT_DIR$/project/test.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/project/settings.py" afterPath="$PROJECT_DIR$/project/project/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/transportapp/templates/transportapp/login.html" afterPath="$PROJECT_DIR$/project/transportapp/templates/transportapp/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/transportapp/templates/transportapp/show_res.html" afterPath="$PROJECT_DIR$/project/transportapp/templates/transportapp/show_res.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/transportapp/views.py" afterPath="$PROJECT_DIR$/project/transportapp/views.py" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Python/#C:/Users/Пользователь/Desktop/graduate/project/transportapp/models.py" pinned="false" current-in-tab="false">
+        <entry file="uml://Python/#C:/Users/Пользователь/Desktop/graduate/project/transportapp/models.py">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>Python</ID>
+              <OriginalElement>#C:/Users/Пользователь/Desktop/graduate/project/transportapp/models.py</OriginalElement>
+              <nodes>
+                <node x="568.898185483871" y="-124.125">project.transportapp.models.Transpor_Type</node>
+                <node x="1435.891129032258" y="-161.38205645161293">project.transportapp.models.Reasearch_detail</node>
+                <node x="523.0" y="144.5">project.transportapp.models.ReasearchStand_detail</node>
+                <node x="847.0" y="155.0">project.transportapp.models.Traffic_Stop</node>
+                <node x="1407.0" y="100.0">project.transportapp.models.Check</node>
+                <node x="1117.0" y="133.0">project.transportapp.models.ReasearchStand</node>
+                <node x="1078.0" y="0.0">Model</node>
+                <node x="1169.3901209677417" y="-164.13306451612908">project.transportapp.models.Reasearch</node>
+                <node x="866.6381048387096" y="-121.87399193548396">project.transportapp.models.Route</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="project.transportapp.models.Reasearch_detail" target="Model">
+                  <point x="0.0" y="-70.0" />
+                  <point x="1575.1421370967741" y="60.0" />
+                  <point x="1133.25" y="60.0" />
+                  <point x="21.25" y="15.0" />
+                </edge>
+                <edge source="project.transportapp.models.Check" target="Model">
+                  <point x="0.0" y="-103.5" />
+                  <point x="1533.0" y="70.0" />
+                  <point x="1124.75" y="70.0" />
+                  <point x="12.75" y="15.0" />
+                </edge>
+                <edge source="project.transportapp.models.ReasearchStand" target="Model">
+                  <point x="0.0" y="-70.5" />
+                  <point x="1252.0" y="80.0" />
+                  <point x="1116.25" y="80.0" />
+                  <point x="4.25" y="15.0" />
+                </edge>
+                <edge source="project.transportapp.models.Transpor_Type" target="Model">
+                  <point x="0.0" y="-48.5" />
+                  <point x="703.6491935483872" y="57.74899193548384" />
+                  <point x="1090.75" y="60.0" />
+                  <point x="-21.25" y="15.0" />
+                </edge>
+                <edge source="project.transportapp.models.Traffic_Stop" target="Model">
+                  <point x="-1.1368683772161603E-13" y="-48.5" />
+                  <point x="971.9999999999998" y="80.0" />
+                  <point x="1107.75" y="80.0" />
+                  <point x="-4.25" y="15.0" />
+                </edge>
+                <edge source="project.transportapp.models.ReasearchStand_detail" target="Model">
+                  <point x="0.0" y="-59.0" />
+                  <point x="675.0" y="70.0" />
+                  <point x="1099.25" y="70.0" />
+                  <point x="-12.75" y="15.0" />
+                </edge>
+                <edge source="project.transportapp.models.Route" target="Model">
+                  <point x="0.0" y="-48.5" />
+                  <point x="977.8891129032259" y="50.0" />
+                  <point x="1082.25" y="50.0" />
+                  <point x="-29.75" y="15.0" />
+                </edge>
+                <edge source="project.transportapp.models.Reasearch" target="Model">
+                  <point x="0.0" y="-70.5" />
+                  <point x="1296.1431451612902" y="50.0" />
+                  <point x="1141.75" y="50.0" />
+                  <point x="29.75" y="15.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.044245409762651" x="717.8314095310941" y="12.831031820910908" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Methods</Category>
+                <Category>Inner Classes</Category>
+                <Category>Fields</Category>
+              </Categories>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JavaScript-modules-diagram/C:/Users/Пользователь/Desktop/graduate/project/transportapp/templates" pinned="false" current-in-tab="false">
+        <entry file="uml://JavaScript-modules-diagram/C:/Users/Пользователь/Desktop/graduate/project/transportapp/templates">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JavaScript-modules-diagram</ID>
+              <OriginalElement>$PROJECT_DIR$/project/transportapp/templates</OriginalElement>
+              <nodes>
+                <node x="32.0" y="638.0">$PROJECT_DIR$/project/transportapp/templates/transportapp/home.html</node>
+                <node x="197.0" y="260.0">$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html</node>
+                <node x="48.0" y="496.0">https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic</node>
+                <node x="348.0" y="468.0">https://fonts.googleapis.com/css?family=Montserrat:400,700</node>
+                <node x="0.0" y="194.0">static/transportapp/css/font-awesome.min.css</node>
+                <node x="0.0" y="569.0">static/transportapp/img/logo.png</node>
+                <node x="422.0" y="295.0">static/transportapp/js/bootstrap-datetimepicker.js</node>
+                <node x="415.0" y="209.0">static/transportapp/js/bootstrap.min.js</node>
+                <node x="369.0" y="138.0">static/transportapp/js/freelancer.js</node>
+                <node x="18.0" y="277.0">static/transportapp/js/jquery.easing.min.js</node>
+                <node x="249.0" y="427.0">static/transportapp/js/jquery.js</node>
+                <node x="394.0" y="364.0">static/transportapp/js/moment.js</node>
+                <node x="100.0" y="125.0">static/transportapp/js/scrolling-nav.js</node>
+                <node x="99.0" y="0.0">{% static 'transportapp/css/bootstrap-datetimepicker.min.css' %}</node>
+                <node x="265.0" y="69.0">{% static 'transportapp/css/bootstrap.min.css' %}</node>
+                <node x="36.0" y="377.0">{% static 'transportapp/css/scrolling-nav.css' %}</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/home.html" target="static/transportapp/img/logo.png">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="{% static 'transportapp/css/bootstrap.min.css' %}">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="static/transportapp/js/jquery.easing.min.js">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="{% static 'transportapp/css/scrolling-nav.css' %}">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="static/transportapp/js/freelancer.js">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="static/transportapp/js/jquery.js">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="static/transportapp/js/bootstrap-datetimepicker.js">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="static/transportapp/js/scrolling-nav.js">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="static/transportapp/js/bootstrap.min.js">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="static/transportapp/css/font-awesome.min.css">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="{% static 'transportapp/css/bootstrap-datetimepicker.min.css' %}">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="static/transportapp/js/moment.js">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.8454810495626822" x="177.86206896551727" y="233.86206896551727" />
+              <SelectedNodes>
+                <node>static/transportapp/img/logo.png</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>All</Category>
+              </Categories>
+              <VISIBILITY>Details</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JavaScript-modules-diagram/C:/Users/Пользователь/Desktop/graduate/project/transportapp" pinned="false" current-in-tab="false">
+        <entry file="uml://JavaScript-modules-diagram/C:/Users/Пользователь/Desktop/graduate/project/transportapp">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JavaScript-modules-diagram</ID>
+              <OriginalElement>$PROJECT_DIR$/project/transportapp</OriginalElement>
+              <nodes>
+                <node x="32.0" y="638.0">$PROJECT_DIR$/project/transportapp/templates/transportapp/home.html</node>
+                <node x="197.0" y="260.0">$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html</node>
+                <node x="48.0" y="496.0">https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic</node>
+                <node x="348.0" y="468.0">https://fonts.googleapis.com/css?family=Montserrat:400,700</node>
+                <node x="0.0" y="194.0">static/transportapp/css/font-awesome.min.css</node>
+                <node x="0.0" y="569.0">static/transportapp/img/logo.png</node>
+                <node x="422.0" y="295.0">static/transportapp/js/bootstrap-datetimepicker.js</node>
+                <node x="415.0" y="209.0">static/transportapp/js/bootstrap.min.js</node>
+                <node x="369.0" y="138.0">static/transportapp/js/freelancer.js</node>
+                <node x="18.0" y="277.0">static/transportapp/js/jquery.easing.min.js</node>
+                <node x="249.0" y="427.0">static/transportapp/js/jquery.js</node>
+                <node x="394.0" y="364.0">static/transportapp/js/moment.js</node>
+                <node x="100.0" y="125.0">static/transportapp/js/scrolling-nav.js</node>
+                <node x="99.0" y="0.0">{% static 'transportapp/css/bootstrap-datetimepicker.min.css' %}</node>
+                <node x="265.0" y="69.0">{% static 'transportapp/css/bootstrap.min.css' %}</node>
+                <node x="36.0" y="377.0">{% static 'transportapp/css/scrolling-nav.css' %}</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/home.html" target="static/transportapp/img/logo.png">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="{% static 'transportapp/css/bootstrap.min.css' %}">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="static/transportapp/js/jquery.easing.min.js">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="{% static 'transportapp/css/scrolling-nav.css' %}">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="static/transportapp/js/freelancer.js">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="static/transportapp/js/jquery.js">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="static/transportapp/js/bootstrap-datetimepicker.js">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="static/transportapp/js/scrolling-nav.js">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="static/transportapp/js/bootstrap.min.js">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="static/transportapp/css/font-awesome.min.css">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="{% static 'transportapp/css/bootstrap-datetimepicker.min.css' %}">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="static/transportapp/js/moment.js">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.8454810495626822" x="177.86206896551727" y="253.86206896551727" />
+              <SelectedNodes />
+              <Categories>
+                <Category>All</Category>
+              </Categories>
+              <VISIBILITY>Details</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JavaScript-modules-diagram/C:/Users/Пользователь/Desktop/graduate/project" pinned="false" current-in-tab="false">
+        <entry file="uml://JavaScript-modules-diagram/C:/Users/Пользователь/Desktop/graduate/project">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JavaScript-modules-diagram</ID>
+              <OriginalElement>$PROJECT_DIR$/project</OriginalElement>
+              <nodes>
+                <node x="32.0" y="638.0">$PROJECT_DIR$/project/transportapp/templates/transportapp/home.html</node>
+                <node x="197.0" y="260.0">$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html</node>
+                <node x="48.0" y="496.0">https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic</node>
+                <node x="348.0" y="468.0">https://fonts.googleapis.com/css?family=Montserrat:400,700</node>
+                <node x="0.0" y="194.0">static/transportapp/css/font-awesome.min.css</node>
+                <node x="0.0" y="569.0">static/transportapp/img/logo.png</node>
+                <node x="422.0" y="295.0">static/transportapp/js/bootstrap-datetimepicker.js</node>
+                <node x="415.0" y="209.0">static/transportapp/js/bootstrap.min.js</node>
+                <node x="369.0" y="138.0">static/transportapp/js/freelancer.js</node>
+                <node x="18.0" y="277.0">static/transportapp/js/jquery.easing.min.js</node>
+                <node x="249.0" y="427.0">static/transportapp/js/jquery.js</node>
+                <node x="394.0" y="364.0">static/transportapp/js/moment.js</node>
+                <node x="100.0" y="125.0">static/transportapp/js/scrolling-nav.js</node>
+                <node x="99.0" y="0.0">{% static 'transportapp/css/bootstrap-datetimepicker.min.css' %}</node>
+                <node x="265.0" y="69.0">{% static 'transportapp/css/bootstrap.min.css' %}</node>
+                <node x="36.0" y="377.0">{% static 'transportapp/css/scrolling-nav.css' %}</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/home.html" target="static/transportapp/img/logo.png">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="{% static 'transportapp/css/bootstrap.min.css' %}">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="static/transportapp/js/jquery.easing.min.js">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="{% static 'transportapp/css/scrolling-nav.css' %}">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="static/transportapp/js/freelancer.js">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="static/transportapp/js/jquery.js">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="static/transportapp/js/bootstrap-datetimepicker.js">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="static/transportapp/js/scrolling-nav.js">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="static/transportapp/js/bootstrap.min.js">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="static/transportapp/css/font-awesome.min.css">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="{% static 'transportapp/css/bootstrap-datetimepicker.min.css' %}">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+                <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="static/transportapp/js/moment.js">
+                  <point x="0.0" y="0.0" />
+                  <point x="0.0" y="0.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.8454810495626822" x="177.86206896551727" y="113.86206896551727" />
+              <SelectedNodes>
+                <node>static/transportapp/img/logo.png</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>All</Category>
+              </Categories>
+              <VISIBILITY>Details</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Python/#C:/Users/Пользователь/Desktop/graduate/project/transportapp" pinned="false" current-in-tab="true">
+        <entry file="uml://Python/#C:/Users/Пользователь/Desktop/graduate/project/transportapp">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>Python</ID>
+              <OriginalElement>#C:/Users/Пользователь/Desktop/graduate/project/transportapp</OriginalElement>
+              <nodes>
+                <node x="644.5" y="352.0">ModelForm</node>
+                <node x="94.0" y="529.0">AppConfig</node>
+                <node x="1639.0" y="155.0">project.transportapp.models.Traffic_Stop</node>
+                <node x="298.0" y="432.0">project.transportapp.forms.ResultForm</node>
+                <node x="557.0" y="432.0">project.transportapp.forms.ChooseStopForm</node>
+                <node x="848.0" y="432.0">project.transportapp.forms.ResearchDetailForm</node>
+                <node x="1129.0" y="155.0">project.transportapp.models.Route</node>
+                <node x="579.0" y="133.0">project.transportapp.models.ReasearchStand</node>
+                <node x="1079.5" y="0.0">Model</node>
+                <node x="285.0" y="133.5">project.transportapp.models.Reasearch_detail</node>
+                <node x="1152.0" y="432.0">project.transportapp.forms.ResearchDetailStandForm</node>
+                <node x="1367.0" y="100.0">project.transportapp.models.Check</node>
+                <node x="0.0" y="432.0">project.transportapp.forms.ChooseRouteForm</node>
+                <node x="0.0" y="609.0">project.transportapp.apps.TransportappConfig</node>
+                <node x="1909.0" y="144.5">project.transportapp.models.ReasearchStand_detail</node>
+                <node x="869.0" y="133.0">project.transportapp.models.Reasearch</node>
+                <node x="0.0" y="155.0">project.transportapp.models.Transpor_Type</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="project.transportapp.models.Reasearch_detail" target="Model">
+                  <point x="0.0" y="-70.0" />
+                  <point x="422.0" y="60.0" />
+                  <point x="1092.25" y="60.0" />
+                  <point x="-21.25" y="15.0" />
+                </edge>
+                <edge source="project.transportapp.models.ReasearchStand" target="Model">
+                  <point x="0.0" y="-70.5" />
+                  <point x="714.0" y="70.0" />
+                  <point x="1100.75" y="70.0" />
+                  <point x="-12.75" y="15.0" />
+                </edge>
+                <edge source="project.transportapp.models.Transpor_Type" target="Model">
+                  <point x="0.0" y="-48.5" />
+                  <point x="132.5" y="50.0" />
+                  <point x="1083.75" y="50.0" />
+                  <point x="-29.75" y="15.0" />
+                </edge>
+                <edge source="project.transportapp.models.ReasearchStand_detail" target="Model">
+                  <point x="0.0" y="-59.0" />
+                  <point x="2061.0" y="50.0" />
+                  <point x="1143.25" y="50.0" />
+                  <point x="29.75" y="15.0" />
+                </edge>
+                <edge source="project.transportapp.forms.ResearchDetailForm" target="ModelForm">
+                  <point x="0.0" y="-26.0" />
+                  <point x="990.0" y="412.0" />
+                  <point x="711.7" y="412.0" />
+                  <point x="19.200000000000045" y="15.0" />
+                </edge>
+                <edge source="project.transportapp.models.Reasearch" target="Model">
+                  <point x="0.0" y="-70.5" />
+                  <point x="989.0" y="80.0" />
+                  <point x="1109.25" y="80.0" />
+                  <point x="-4.25" y="15.0" />
+                </edge>
+                <edge source="project.transportapp.models.Check" target="Model">
+                  <point x="0.0" y="-103.5" />
+                  <point x="1493.0" y="70.0" />
+                  <point x="1126.25" y="70.0" />
+                  <point x="12.75" y="15.0" />
+                </edge>
+                <edge source="project.transportapp.models.Traffic_Stop" target="Model">
+                  <point x="0.0" y="-48.5" />
+                  <point x="1764.0" y="60.0" />
+                  <point x="1134.75" y="60.0" />
+                  <point x="21.25" y="15.0" />
+                </edge>
+                <edge source="project.transportapp.apps.TransportappConfig" target="AppConfig">
+                  <point x="0.0" y="-26.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+                <edge source="project.transportapp.forms.ResultForm" target="ModelForm">
+                  <point x="0.0" y="-26.0" />
+                  <point x="417.5" y="412.0" />
+                  <point x="673.3" y="412.0" />
+                  <point x="-19.200000000000045" y="15.0" />
+                </edge>
+                <edge source="project.transportapp.forms.ChooseRouteForm" target="ModelForm">
+                  <point x="0.0" y="-26.0" />
+                  <point x="139.0" y="402.0" />
+                  <point x="654.1" y="402.0" />
+                  <point x="-38.39999999999998" y="15.0" />
+                </edge>
+                <edge source="project.transportapp.models.Route" target="Model">
+                  <point x="0.0" y="-48.5" />
+                  <point x="1238.0" y="80.0" />
+                  <point x="1117.75" y="80.0" />
+                  <point x="4.25" y="15.0" />
+                </edge>
+                <edge source="project.transportapp.forms.ResearchDetailStandForm" target="ModelForm">
+                  <point x="0.0" y="-26.0" />
+                  <point x="1309.0" y="402.0" />
+                  <point x="730.9" y="402.0" />
+                  <point x="38.39999999999998" y="15.0" />
+                </edge>
+                <edge source="project.transportapp.forms.ChooseStopForm" target="ModelForm">
+                  <point x="0.0" y="-26.0" />
+                  <point x="0.0" y="15.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.30094043887147337" x="1106.5" y="390.0" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Methods</Category>
+                <Category>Inner Classes</Category>
+                <Category>Fields</Category>
+              </Categories>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Buildout</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="graduate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="graduate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="graduate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="graduate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="graduate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="graduate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="transportapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="graduate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="graduate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.uml" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="graduate" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="graduate" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="graduate" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="graduate" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="graduate" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="graduate" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="graduate" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="graduate" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="graduate" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="graduate" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="93630b5e-75dd-46a6-bcea-eeb8b17a0a12" name="Default" comment="" />
+      <created>1495805119361</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1495805119361</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5080527" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.020995334" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="0" y="0" width="573" height="488" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44790047" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.7118353" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/project/transportapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/transportapp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/transportapp/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/transportapp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/transportapp/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/django/db/models/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7956">
+          <caret line="468" column="6" lean-forward="false" selection-start-line="468" selection-start-column="6" selection-end-line="468" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/django/forms/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4641">
+          <caret line="273" column="6" lean-forward="false" selection-start-line="273" selection-start-column="6" selection-end-line="273" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/django/db/models/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7293">
+          <caret line="468" column="6" lean-forward="false" selection-start-line="468" selection-start-column="6" selection-end-line="468" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/transportapp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36-32/Lib/site-packages/django/forms/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="273" column="0" lean-forward="true" selection-start-line="273" selection-start-column="0" selection-end-line="273" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/transportapp/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/transportapp/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/transportapp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/transportapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/#C:/Users/Пользователь/Desktop/graduate/project/transportapp/models.py">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#C:/Users/Пользователь/Desktop/graduate/project/transportapp/models.py</OriginalElement>
+          <nodes>
+            <node x="568.898185483871" y="-124.125">project.transportapp.models.Transpor_Type</node>
+            <node x="1435.891129032258" y="-161.38205645161293">project.transportapp.models.Reasearch_detail</node>
+            <node x="523.0" y="144.5">project.transportapp.models.ReasearchStand_detail</node>
+            <node x="847.0" y="155.0">project.transportapp.models.Traffic_Stop</node>
+            <node x="1407.0" y="100.0">project.transportapp.models.Check</node>
+            <node x="1117.0" y="133.0">project.transportapp.models.ReasearchStand</node>
+            <node x="1078.0" y="0.0">Model</node>
+            <node x="1169.3901209677417" y="-164.13306451612908">project.transportapp.models.Reasearch</node>
+            <node x="866.6381048387096" y="-121.87399193548396">project.transportapp.models.Route</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="project.transportapp.models.Reasearch_detail" target="Model">
+              <point x="0.0" y="-70.0" />
+              <point x="1575.1421370967741" y="60.0" />
+              <point x="1133.25" y="60.0" />
+              <point x="21.25" y="15.0" />
+            </edge>
+            <edge source="project.transportapp.models.Check" target="Model">
+              <point x="0.0" y="-103.5" />
+              <point x="1533.0" y="70.0" />
+              <point x="1124.75" y="70.0" />
+              <point x="12.75" y="15.0" />
+            </edge>
+            <edge source="project.transportapp.models.ReasearchStand" target="Model">
+              <point x="0.0" y="-70.5" />
+              <point x="1252.0" y="80.0" />
+              <point x="1116.25" y="80.0" />
+              <point x="4.25" y="15.0" />
+            </edge>
+            <edge source="project.transportapp.models.Transpor_Type" target="Model">
+              <point x="0.0" y="-48.5" />
+              <point x="703.6491935483872" y="57.74899193548384" />
+              <point x="1090.75" y="60.0" />
+              <point x="-21.25" y="15.0" />
+            </edge>
+            <edge source="project.transportapp.models.Traffic_Stop" target="Model">
+              <point x="-1.1368683772161603E-13" y="-48.5" />
+              <point x="971.9999999999998" y="80.0" />
+              <point x="1107.75" y="80.0" />
+              <point x="-4.25" y="15.0" />
+            </edge>
+            <edge source="project.transportapp.models.ReasearchStand_detail" target="Model">
+              <point x="0.0" y="-59.0" />
+              <point x="675.0" y="70.0" />
+              <point x="1099.25" y="70.0" />
+              <point x="-12.75" y="15.0" />
+            </edge>
+            <edge source="project.transportapp.models.Route" target="Model">
+              <point x="0.0" y="-48.5" />
+              <point x="977.8891129032259" y="50.0" />
+              <point x="1082.25" y="50.0" />
+              <point x="-29.75" y="15.0" />
+            </edge>
+            <edge source="project.transportapp.models.Reasearch" target="Model">
+              <point x="0.0" y="-70.5" />
+              <point x="1296.1431451612902" y="50.0" />
+              <point x="1141.75" y="50.0" />
+              <point x="29.75" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.044245409762651" x="717.8314095310941" y="12.831031820910908" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+            <Category>Fields</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/C:/Users/Пользователь/Desktop/graduate/project/transportapp/templates">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/project/transportapp/templates</OriginalElement>
+          <nodes>
+            <node x="32.0" y="638.0">$PROJECT_DIR$/project/transportapp/templates/transportapp/home.html</node>
+            <node x="197.0" y="260.0">$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html</node>
+            <node x="48.0" y="496.0">https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic</node>
+            <node x="348.0" y="468.0">https://fonts.googleapis.com/css?family=Montserrat:400,700</node>
+            <node x="0.0" y="194.0">static/transportapp/css/font-awesome.min.css</node>
+            <node x="0.0" y="569.0">static/transportapp/img/logo.png</node>
+            <node x="422.0" y="295.0">static/transportapp/js/bootstrap-datetimepicker.js</node>
+            <node x="415.0" y="209.0">static/transportapp/js/bootstrap.min.js</node>
+            <node x="369.0" y="138.0">static/transportapp/js/freelancer.js</node>
+            <node x="18.0" y="277.0">static/transportapp/js/jquery.easing.min.js</node>
+            <node x="249.0" y="427.0">static/transportapp/js/jquery.js</node>
+            <node x="394.0" y="364.0">static/transportapp/js/moment.js</node>
+            <node x="100.0" y="125.0">static/transportapp/js/scrolling-nav.js</node>
+            <node x="99.0" y="0.0">{% static 'transportapp/css/bootstrap-datetimepicker.min.css' %}</node>
+            <node x="265.0" y="69.0">{% static 'transportapp/css/bootstrap.min.css' %}</node>
+            <node x="36.0" y="377.0">{% static 'transportapp/css/scrolling-nav.css' %}</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/home.html" target="static/transportapp/img/logo.png">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="{% static 'transportapp/css/bootstrap.min.css' %}">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="static/transportapp/js/jquery.easing.min.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="{% static 'transportapp/css/scrolling-nav.css' %}">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="static/transportapp/js/freelancer.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="static/transportapp/js/jquery.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="static/transportapp/js/bootstrap-datetimepicker.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="static/transportapp/js/scrolling-nav.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="static/transportapp/js/bootstrap.min.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="static/transportapp/css/font-awesome.min.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="{% static 'transportapp/css/bootstrap-datetimepicker.min.css' %}">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="static/transportapp/js/moment.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.8454810495626822" x="177.86206896551727" y="233.86206896551727" />
+          <SelectedNodes>
+            <node>static/transportapp/img/logo.png</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/C:/Users/Пользователь/Desktop/graduate/project/transportapp">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/project/transportapp</OriginalElement>
+          <nodes>
+            <node x="32.0" y="638.0">$PROJECT_DIR$/project/transportapp/templates/transportapp/home.html</node>
+            <node x="197.0" y="260.0">$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html</node>
+            <node x="48.0" y="496.0">https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic</node>
+            <node x="348.0" y="468.0">https://fonts.googleapis.com/css?family=Montserrat:400,700</node>
+            <node x="0.0" y="194.0">static/transportapp/css/font-awesome.min.css</node>
+            <node x="0.0" y="569.0">static/transportapp/img/logo.png</node>
+            <node x="422.0" y="295.0">static/transportapp/js/bootstrap-datetimepicker.js</node>
+            <node x="415.0" y="209.0">static/transportapp/js/bootstrap.min.js</node>
+            <node x="369.0" y="138.0">static/transportapp/js/freelancer.js</node>
+            <node x="18.0" y="277.0">static/transportapp/js/jquery.easing.min.js</node>
+            <node x="249.0" y="427.0">static/transportapp/js/jquery.js</node>
+            <node x="394.0" y="364.0">static/transportapp/js/moment.js</node>
+            <node x="100.0" y="125.0">static/transportapp/js/scrolling-nav.js</node>
+            <node x="99.0" y="0.0">{% static 'transportapp/css/bootstrap-datetimepicker.min.css' %}</node>
+            <node x="265.0" y="69.0">{% static 'transportapp/css/bootstrap.min.css' %}</node>
+            <node x="36.0" y="377.0">{% static 'transportapp/css/scrolling-nav.css' %}</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/home.html" target="static/transportapp/img/logo.png">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="{% static 'transportapp/css/bootstrap.min.css' %}">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="static/transportapp/js/jquery.easing.min.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="{% static 'transportapp/css/scrolling-nav.css' %}">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="static/transportapp/js/freelancer.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="static/transportapp/js/jquery.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="static/transportapp/js/bootstrap-datetimepicker.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="static/transportapp/js/scrolling-nav.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="static/transportapp/js/bootstrap.min.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="static/transportapp/css/font-awesome.min.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="{% static 'transportapp/css/bootstrap-datetimepicker.min.css' %}">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="static/transportapp/js/moment.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.8454810495626822" x="177.86206896551727" y="253.86206896551727" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/C:/Users/Пользователь/Desktop/graduate/project">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/project</OriginalElement>
+          <nodes>
+            <node x="32.0" y="638.0">$PROJECT_DIR$/project/transportapp/templates/transportapp/home.html</node>
+            <node x="197.0" y="260.0">$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html</node>
+            <node x="48.0" y="496.0">https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic</node>
+            <node x="348.0" y="468.0">https://fonts.googleapis.com/css?family=Montserrat:400,700</node>
+            <node x="0.0" y="194.0">static/transportapp/css/font-awesome.min.css</node>
+            <node x="0.0" y="569.0">static/transportapp/img/logo.png</node>
+            <node x="422.0" y="295.0">static/transportapp/js/bootstrap-datetimepicker.js</node>
+            <node x="415.0" y="209.0">static/transportapp/js/bootstrap.min.js</node>
+            <node x="369.0" y="138.0">static/transportapp/js/freelancer.js</node>
+            <node x="18.0" y="277.0">static/transportapp/js/jquery.easing.min.js</node>
+            <node x="249.0" y="427.0">static/transportapp/js/jquery.js</node>
+            <node x="394.0" y="364.0">static/transportapp/js/moment.js</node>
+            <node x="100.0" y="125.0">static/transportapp/js/scrolling-nav.js</node>
+            <node x="99.0" y="0.0">{% static 'transportapp/css/bootstrap-datetimepicker.min.css' %}</node>
+            <node x="265.0" y="69.0">{% static 'transportapp/css/bootstrap.min.css' %}</node>
+            <node x="36.0" y="377.0">{% static 'transportapp/css/scrolling-nav.css' %}</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/home.html" target="static/transportapp/img/logo.png">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="{% static 'transportapp/css/bootstrap.min.css' %}">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="static/transportapp/js/jquery.easing.min.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="{% static 'transportapp/css/scrolling-nav.css' %}">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="static/transportapp/js/freelancer.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="static/transportapp/js/jquery.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="static/transportapp/js/bootstrap-datetimepicker.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="static/transportapp/js/scrolling-nav.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="static/transportapp/js/bootstrap.min.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="static/transportapp/css/font-awesome.min.css">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="{% static 'transportapp/css/bootstrap-datetimepicker.min.css' %}">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="$PROJECT_DIR$/project/transportapp/templates/transportapp/index.html" target="static/transportapp/js/moment.js">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.8454810495626822" x="177.86206896551727" y="113.86206896551727" />
+          <SelectedNodes>
+            <node>static/transportapp/img/logo.png</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://Python/#C:/Users/Пользователь/Desktop/graduate/project/transportapp">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#C:/Users/Пользователь/Desktop/graduate/project/transportapp</OriginalElement>
+          <nodes>
+            <node x="644.5" y="352.0">ModelForm</node>
+            <node x="94.0" y="529.0">AppConfig</node>
+            <node x="1639.0" y="155.0">project.transportapp.models.Traffic_Stop</node>
+            <node x="298.0" y="432.0">project.transportapp.forms.ResultForm</node>
+            <node x="557.0" y="432.0">project.transportapp.forms.ChooseStopForm</node>
+            <node x="848.0" y="432.0">project.transportapp.forms.ResearchDetailForm</node>
+            <node x="1129.0" y="155.0">project.transportapp.models.Route</node>
+            <node x="579.0" y="133.0">project.transportapp.models.ReasearchStand</node>
+            <node x="1079.5" y="0.0">Model</node>
+            <node x="285.0" y="133.5">project.transportapp.models.Reasearch_detail</node>
+            <node x="1152.0" y="432.0">project.transportapp.forms.ResearchDetailStandForm</node>
+            <node x="1367.0" y="100.0">project.transportapp.models.Check</node>
+            <node x="0.0" y="432.0">project.transportapp.forms.ChooseRouteForm</node>
+            <node x="0.0" y="609.0">project.transportapp.apps.TransportappConfig</node>
+            <node x="1909.0" y="144.5">project.transportapp.models.ReasearchStand_detail</node>
+            <node x="869.0" y="133.0">project.transportapp.models.Reasearch</node>
+            <node x="0.0" y="155.0">project.transportapp.models.Transpor_Type</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="project.transportapp.models.Reasearch_detail" target="Model">
+              <point x="0.0" y="-70.0" />
+              <point x="422.0" y="60.0" />
+              <point x="1092.25" y="60.0" />
+              <point x="-21.25" y="15.0" />
+            </edge>
+            <edge source="project.transportapp.models.ReasearchStand" target="Model">
+              <point x="0.0" y="-70.5" />
+              <point x="714.0" y="70.0" />
+              <point x="1100.75" y="70.0" />
+              <point x="-12.75" y="15.0" />
+            </edge>
+            <edge source="project.transportapp.models.Transpor_Type" target="Model">
+              <point x="0.0" y="-48.5" />
+              <point x="132.5" y="50.0" />
+              <point x="1083.75" y="50.0" />
+              <point x="-29.75" y="15.0" />
+            </edge>
+            <edge source="project.transportapp.models.ReasearchStand_detail" target="Model">
+              <point x="0.0" y="-59.0" />
+              <point x="2061.0" y="50.0" />
+              <point x="1143.25" y="50.0" />
+              <point x="29.75" y="15.0" />
+            </edge>
+            <edge source="project.transportapp.forms.ResearchDetailForm" target="ModelForm">
+              <point x="0.0" y="-26.0" />
+              <point x="990.0" y="412.0" />
+              <point x="711.7" y="412.0" />
+              <point x="19.200000000000045" y="15.0" />
+            </edge>
+            <edge source="project.transportapp.models.Reasearch" target="Model">
+              <point x="0.0" y="-70.5" />
+              <point x="989.0" y="80.0" />
+              <point x="1109.25" y="80.0" />
+              <point x="-4.25" y="15.0" />
+            </edge>
+            <edge source="project.transportapp.models.Check" target="Model">
+              <point x="0.0" y="-103.5" />
+              <point x="1493.0" y="70.0" />
+              <point x="1126.25" y="70.0" />
+              <point x="12.75" y="15.0" />
+            </edge>
+            <edge source="project.transportapp.models.Traffic_Stop" target="Model">
+              <point x="0.0" y="-48.5" />
+              <point x="1764.0" y="60.0" />
+              <point x="1134.75" y="60.0" />
+              <point x="21.25" y="15.0" />
+            </edge>
+            <edge source="project.transportapp.apps.TransportappConfig" target="AppConfig">
+              <point x="0.0" y="-26.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="project.transportapp.forms.ResultForm" target="ModelForm">
+              <point x="0.0" y="-26.0" />
+              <point x="417.5" y="412.0" />
+              <point x="673.3" y="412.0" />
+              <point x="-19.200000000000045" y="15.0" />
+            </edge>
+            <edge source="project.transportapp.forms.ChooseRouteForm" target="ModelForm">
+              <point x="0.0" y="-26.0" />
+              <point x="139.0" y="402.0" />
+              <point x="654.1" y="402.0" />
+              <point x="-38.39999999999998" y="15.0" />
+            </edge>
+            <edge source="project.transportapp.models.Route" target="Model">
+              <point x="0.0" y="-48.5" />
+              <point x="1238.0" y="80.0" />
+              <point x="1117.75" y="80.0" />
+              <point x="4.25" y="15.0" />
+            </edge>
+            <edge source="project.transportapp.forms.ResearchDetailStandForm" target="ModelForm">
+              <point x="0.0" y="-26.0" />
+              <point x="1309.0" y="402.0" />
+              <point x="730.9" y="402.0" />
+              <point x="38.39999999999998" y="15.0" />
+            </edge>
+            <edge source="project.transportapp.forms.ChooseStopForm" target="ModelForm">
+              <point x="0.0" y="-26.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.30094043887147337" x="1106.5" y="390.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+            <Category>Fields</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -59,9 +59,10 @@ def show_res(request, pk):
 
     resstand=ReasearchStand.objects.filter(route=res.route).filter(month__gt=minmon).filter(month__lte=maxmon).filter(weekday__gt=minday).filter(weekday__lte=maxday).filter(date__gt=res.timestart).filter(date__lte=res.timeend).all()
     resgo=Reasearch.objects.filter(route=res.route).filter(month__gt=minmon).filter(month__lte=maxmon).filter(weekday__gt=minday).filter(weekday__lte=maxday).filter(date__gt=res.timestart).filter(date__lte=res.timeend).all()
-
+    check = True
 # we have enought info for research
     if resstand and resgo:
+
         traffic_list=[]
         traffic_time_list=[]
 
@@ -91,98 +92,103 @@ def show_res(request, pk):
                     traffic_time_list_uno.append(stop.timewait)
                     traffic_time_list.append(traffic_time_list_uno)
         intensity_medians=[]
-        for ts in traffic_stops:
-            intensitymedian = 0
-            timemedian = 0
+        try:
+
+            for ts in traffic_stops:
+                intensitymedian = 0
+                timemedian = 0
+                count = 0
+                intensity_medians_uno=[]
+                for i in range(len(traffic_time_list)):
+                    if traffic_time_list[i][0] == ts:
+                        intensitymedian += traffic_time_list[i][1]
+                        timemedian += traffic_time_list[i][2]
+                        count += 1
+                if count == 0:
+                    print('no stand traffic stops')
+                else:
+                    intensity_medians_uno.append(ts)
+                    intensity_medians_uno.append((intensitymedian/count))
+                    intensity_medians_uno.append(timemedian/count)
+                intensity_medians.append(intensity_medians_uno)
+
+
+
+
+
+        # calculate probability of exit for all elements in list "traffic_list"
+            probability=[]
+            peopleintransport = 0
+            probabilityofexit = 0
+            for i in range(len(traffic_list)):
+                probability_uno=[]
+                if i==0:
+                    probabilityofexit = traffic_list[i][3]/traffic_list[i][2]
+                else:
+                    probabilityofexit = traffic_list[i][3]/peopleintransport
+
+                print("profex")
+                print(probabilityofexit)
+                peopleintransport += traffic_list[i][2]-traffic_list[i][3]
+                probability_uno.append(traffic_list[i][1])
+                probability_uno.append(probabilityofexit)
+                probability.append(probability_uno)
+
+
+
+        # calculate median probability for every traffic stop on the Route
+            probability_medians=[]
+            for ts in traffic_stops:
+                probabilityofexitmedian = 0
+                count = 0
+                probability_medians_uno=[]
+                for i in range(len(probability)):
+                    if probability[i][0] == ts:
+                        probabilityofexitmedian += probability[i][1]
+                        count += 1
+                probability_medians_uno.append(ts)
+                probability_medians_uno.append(probabilityofexitmedian/count)
+                probability_medians.append(probability_medians_uno)
+            peoplenow = 0
             count = 0
-            intensity_medians_uno=[]
-            for i in range(len(traffic_time_list)):
-                if traffic_time_list[i][0] == ts:
-                    intensitymedian += traffic_time_list[i][1]
-                    timemedian += traffic_time_list[i][2]
-                    count += 1
-            if count == 0:
-                print('no stand traffic stops')
-            else:
-                intensity_medians_uno.append(ts)
-                intensity_medians_uno.append((intensitymedian/count))
-                intensity_medians_uno.append(timemedian/count)
-            intensity_medians.append(intensity_medians_uno)
+            statistic = []
+            foradmin =[]
+            i=0
+            for ts in traffic_stops:
+                foradmin_uno=[]
+                foradmin_uno.append("Stop " + ts.name )
+                foradmin_uno.append("Probability of exit : " + str(probability_medians[i][1]*100) + " %")
+                foradmin_uno.append("Intensity of coming : " + str(intensity_medians[i][1]*60) + " in hour")
+                foradmin.append(foradmin_uno)
+                i+=1
+            statistic.append(foradmin)
 
+            for ts in traffic_stops:
+                peoplenow += intensity_medians[count][1]*intensity_medians[count][2] - probability_medians[count][1]*peoplenow
+                if peoplenow > maxpeople :
+                    situation = 'DANGER'
+                else:
+                    situation = 'OK'
+                statistic_uno=[]
+                statistic_uno.append(ts.name)
+                statistic_uno.append(peoplenow)
+                statistic_uno.append(situation)
+                #statistic.append(statistic_uno)
+                count += 1
 
-
-    # calculate probability of exit for all elements in list "traffic_list"
-        probability=[]
-        peopleintransport = 0.0001
-        probabilityofexit = 0
-        for i in range(len(traffic_list)):
-            probability_uno=[]
-            probabilityofexit = traffic_list[i][3]/peopleintransport
-            peopleintransport += traffic_list[i][2]-traffic_list[i][3]
-            probability_uno.append(traffic_list[i][1])
-            probability_uno.append(probabilityofexit)
-            probability.append(probability_uno)
-
-
-
-    # calculate median probability for every traffic stop on the Route
-        probability_medians=[]
-        for ts in traffic_stops:
-            probabilityofexitmedian = 0
-            count = 0
-            probability_medians_uno=[]
-            for i in range(len(probability)):
-                if probability[i][0] == ts:
-                    probabilityofexitmedian += probability[i][1]
-                    count += 1
-            probability_medians_uno.append(ts)
-            probability_medians_uno.append(probabilityofexitmedian/count)
-            probability_medians.append(probability_medians_uno)
-        peoplenow = 0
-        count = 0
-        statistic = []
-        print (probability_medians)
-        print (intensity_medians)
-        for ts in traffic_stops:
-            peoplenow += intensity_medians[count][1]*intensity_medians[count][2] - probability_medians[count][1]*peoplenow
-            if peoplenow > maxpeople :
-                situation = 'DANGER'
-            else:
-                situation = 'OK'
-            statistic_uno=[]
-            statistic_uno.append(ts.name)
-            statistic_uno.append(peoplenow)
-            statistic_uno.append(situation)
-            statistic.append(statistic_uno)
-            count += 1
-#        a=[]
-#        b=[]
-#        for i in statistic:
-#            a.append(i[0])
-#            b.append(i[1])
-#        print(a)
-#        print(b)
-        #plt.plot(b,b)
-#        t = np.arange(0.0, 2.0, 0.01)
-#        s = 1 + np.sin(2*np.pi*t)
-#        plt.plot(t, s)
-
-#        plt.xlabel('time (s)')
-#        plt.ylabel('voltage (mV)')
-#        plt.title('About as simple as it gets, folks')
-#        plt.grid(True)
-#        plt.savefig("transportapp/static/transportapp/img/result.png")
-        #plt.show()
-#        plt.close()
-
-        res=[]
-        res.append(traffic_list)
-        res.append(traffic_time_list)
-        content = statistic
+            content = statistic
+        except:
+            check=False
 
 #not enought info for research
     else:
-        print ('nothing')
+        a = "WE HAVE NOT ENOUGHT DATE"
+        content =[]
+        content.append(a)
+    if check==False:
+        a = "WE HAVE NOT ENOUGHT DATE"
+        content =[]
+        content.append(a)
 
 
 
